@@ -1,0 +1,7 @@
+targets:
+  $default:
+    builders:
+      drift_dev:
+        options:
+          # Запросы пишутся через select/customSelect, менеджер API не нужен.
+          generate_manager: false
